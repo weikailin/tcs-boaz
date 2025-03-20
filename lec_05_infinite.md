@@ -176,7 +176,7 @@ def F(x):
 
 
 
-### Formal Languages  { #languagessec }
+### Formal Languages  { #languagessec } 
 
 For every Boolean function $F:\{0,1\}^* \rightarrow \{0,1\}$, we can define the set $L_F = \{ x | F(x) = 1 \}$ of strings on which $F$ outputs $1$.
 Such sets are known as _languages_. 
@@ -535,7 +535,7 @@ Regular expression can be defined over any finite alphabet $\Sigma$, but as usua
 Most (if not all) of the theoretical and practical general insights about regular expressions can be gleaned from studying the binary case.
 
 
-### Algorithms for matching regular expressions
+### Algorithms for matching regular expressions 
 
 Regular expressions would not be very useful for search if we could not evaluate, given a regular expression $e$, whether a string $x$ is matched
 by $e$. Luckily, there is an algorithm to do so.
@@ -791,7 +791,7 @@ For $i>0$ this holds by induction since the inductive hypothesis implies that $l
 $\Phi_{e'}(x_0 \cdots x_{i-1}) = \Phi_{e''}(x_0 \cdots x_i)$.
 :::
 
-### Equivalence of regular expressions and automata  { #regdfaequivsec }
+### Equivalence of regular expressions and automata  { #regdfaequivsec } 
 
 
 Recall that a Boolean function $F:\{0,1\}^* \rightarrow \{0,1\}$ is defined to be _regular_ if it is equal to $\Phi_e$ for some 
@@ -897,7 +897,7 @@ This is a direct consequence of the closure of regular functions under OR and NO
 
 
 
-## Limitations of regular expressions and the pumping lemma
+## Limitations of regular expressions and the pumping lemma 
 
 
 The efficiency of regular expression matching makes them very useful.
